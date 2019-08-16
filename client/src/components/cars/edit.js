@@ -15,7 +15,7 @@ function Edit(props) {
   function handleSubmit(event) {
     event.preventDefault();
 
-    Axios.post("/api/update", {
+    Axios.post("/api/cars/update", {
       id: props.match.params.id,
         manufacturer: inputs.manufacturer,
         model: inputs.model,
