@@ -38,7 +38,7 @@ function Edit(props) {
     });
   }
 
-  if (redirect) return <Redirect to="/cars" />;
+  if (redirect) return <Redirect to="/api/cars" />;
 
   return (
     <div className="container">
